@@ -1,0 +1,29 @@
+{
+  "name": "simple-expo-sqlite-todo",
+  "version": "1.0.0",
+  "description": "> simple React Native TODO app using `expo-sqlite`",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "expo-sqlite": "~14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "keywords": [
+    "react-native",
+    "expo-sqlite"
+  ],
+  "author": "codeguru827",
+  "license": "MIT"
+}
